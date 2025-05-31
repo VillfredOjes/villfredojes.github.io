@@ -1,0 +1,57 @@
+body {
+    color: #19241d; /*#f0ece4*/
+    background-color: #E8E5DA;
+}
+.main {
+    margin: 5vh 50vh;
+}
+.navbar {
+    display: flex;
+    gap: 1vh;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #5c8c34; 
+    transition: 0.1s;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #5c8c34;
+    color: white;
+}
+.date {
+    margin-bottom: 2vh;
+    text-decoration: underline;
+    font-weight: bold;
+}
+hr {
+    border-bottom: 1px;
+    margin: 3vh 0;
+}
+.post {
+    margin: 2vh 0;
+}
+.code {
+    background-color: black;
+    color: white;
+    max-height: 30vh;
+    overflow: auto;
+    margin: 1vh 0;
+}
+::selection {
+    background-color: #5c8c34;
+    color: white;
+}
+h4 {
+    margin: 0;
+}
+.blacklink {
+    color: #19241d;
+    font-weight: bold;
+}
+.blacklink:hover {
+    background-color: #19241d;
+}
